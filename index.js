@@ -16,8 +16,8 @@ $(document).ready(function () {
     $.getJSON('./data/events.json', function(data) { 
         $.each(data, function(key, value) {
             $(".event-container").append($(`<div class="card-container col-lg-4 col-md-6 col-12"><div class="card event-${key}"></div></div>`))
-            $(`.event-${key}`).append($(`<div class="event-front"><div class="inner"><img src="images/${value.image}" alt="${value.event}" /></div><a href="${value.eventLink}" target="_blank" class="event-link"><p class="event-name">${value.event}</p></a><p>Apr 17, 2021 - Oct 30, 2021 (Every Saturday)</p><div class="flip-btn" data-id="event-${key}"><p>click to flip</p></div></div>`))
-            $(`.event-${key}`).append($(`<div class="event-back"><p class="event-name">${value.event}</p><p><strong>Date:</strong> ${value.duration} ${value.days ? "("+ value.days +")" : ""}</p><p><strong>Time:</strong> ${value.time}</p><p><strong>Location:</strong> <a href="${value.locationLink}" target="_blank">${value.location}</a></p><div class="flip-back"><p>click to flip</p></div></div>`))
+            $(`.event-${key}`).append($(`<div class="event-front flip-btn" data-id="event-${key}"><div class="inner flip-btn" data-id="event-${key}"><img src="images/${value.image}" class="flip-btn" data-id="event-${key}" alt="${value.event}" /></div><p class="event-name flip-btn" data-id="event-${key}">${value.event}</p><p class="flip-btn" data-id="event-${key}">Apr 17, 2021 - Oct 30, 2021 (Every Saturday)</p>`))
+            $(`.event-${key}`).append($(`<div class="event-back"><p class="event-name">${value.event}</p><p><strong>Date:</strong> ${value.duration} ${value.days ? "("+ value.days +")" : ""}</p><p><strong>Time:</strong> ${value.time}</p>${value.eventLink ? '<p><strong>Event Link:</strong> <a href="' + value.eventLink +'" target="_blank">' + value.eventLink +'</a></p>' : "" }<p><strong>Location:</strong> <a href="${value.locationLink}" target="_blank">${value.location}</a></p><div class="flip-back"><p>click to flip</p></div></div>`))
         }) 
     })
     // HTML
@@ -69,7 +69,8 @@ $(document).ready(function () {
     $(document).on("click", ".flip-btn",function() {
         var dataId = $(this).attr("data-id");
         $(".flipcard").removeClass("flipcard");
-        $(`.${dataId}`).addClass("flipcard");
+        setTimeout(function(){ $(`.${dataId}`).addClass("flipcard"); }, 200);
+        
     })
 
 

@@ -277,15 +277,21 @@ Extra (xl) devices (large desktop, 1200px and up)
 #events .event-container .card-container .card .event-back p {
   color: var(--dark);
   font-size: 15px;
+  margin-bottom: 0.5rem;
 }
 #events .event-container .card-container .card .event-front .event-name,
 #events .event-container .card-container .card .event-back .event-name {
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 0;
 }
 #events .event-container .card-container .card .event-front .flip-btn,
 #events .event-container .card-container .card .event-front .flip-back,
 #events .event-container .card-container .card .event-back .flip-btn,
+#events .event-container .card-container .card .event-back .flip-back {
+  cursor: pointer;
+}
+#events .event-container .card-container .card .event-front .flip-back,
 #events .event-container .card-container .card .event-back .flip-back {
   position: absolute;
   bottom: 5px;
@@ -299,9 +305,7 @@ Extra (xl) devices (large desktop, 1200px and up)
   justify-content: center;
   align-items: center;
 }
-#events .event-container .card-container .card .event-front .flip-btn p,
 #events .event-container .card-container .card .event-front .flip-back p,
-#events .event-container .card-container .card .event-back .flip-btn p,
 #events .event-container .card-container .card .event-back .flip-back p {
   font-size: 10px;
   font-weight: bold;
@@ -311,6 +315,10 @@ Extra (xl) devices (large desktop, 1200px and up)
 }
 #events .event-container .card-container .card .event-front {
   transform: scale(1) perspective(600px) rotateY(0deg);
+}
+#events .event-container .card-container .card .event-front:hover {
+  box-shadow: none;
+  margin-top: 3px;
 }
 #events .event-container .card-container .card .event-front .inner {
   width: 240px;
@@ -324,9 +332,6 @@ Extra (xl) devices (large desktop, 1200px and up)
 #events .event-container .card-container .card .event-front .inner img {
   width: 100%;
   padding: 0 20px;
-}
-#events .event-container .card-container .card .event-front p {
-  margin: 0;
 }
 #events .event-container .card-container .card .event-front .event-name {
   max-height: 36px;
