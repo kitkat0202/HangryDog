@@ -1,10 +1,38 @@
 [
     {
         "event": "Bronx Night Market",
-        "event-link": "http://127.0.0.1:5500/index.html",
-        "time": "April 17, 2021 - October 30, 2021",
+        "eventLink": "https://www.thebronxnightmarket.com/",
+        "image": "bronx-night-market-1.png",
+        "duration": "Apr 17, 2021 - Oct 30, 2021",
+        "time": "12:00pm - 7:00pm",
         "days": "Every Saturday",
         "location": "Fordham Plaza, E Fordham Rd, Bronx, NY 10458",
-        "location-link": "https://www.google.com/maps/place/Bronx+Night+Market/@40.8610671,-73.8909198,15z/data=!4m5!3m4!1s0x0:0x22adfcb40fd5709e!8m2!3d40.86114!4d-73.890855"
+        "locationLink": "https://www.google.com/maps/place/Bronx+Night+Market/@40.8610671,-73.8909198,15z/data=!4m5!3m4!1s0x0:0x22adfcb40fd5709e!8m2!3d40.86114!4d-73.890855"
+    },
+    {
+        "event": "Lunch Break NYC",
+        "image": "lunch-break-nyc-holder.png",
+        "duration": "May 26, 2021 - Jun 4, 2021",
+        "time": "11:00am - 4:00pm",
+        "days": "Wed - Fri",
+        "location": "Municipal Plaza City Hall,  New York, NY 10007 ",
+        "locationLink": "https://www.google.com/maps/place/New+York+City+Hall/@40.7127744,-74.006059,15z/data=!4m2!3m1!1s0x0:0x7f1e88758d210007?sa=X&ved=2ahUKEwjFzPn_18XwAhUNLa0KHb9HA8wQ_BIwE3oECFEQBQ"
+    },
+    {
+        "event": "Famous Food Festival",
+        "eventLink": "https://www.famousfoodfestival.com/",
+        "image": "famous-food-festival.png",
+        "duration": "Sep 3, 2021 - Sep 6, 2021",
+        "time": "9/3 ~ 3:00pm - 9:00pm <br/> 9/4 to 9/6 ~ 11:00am - 8:00pm",
+        "location": "Tanger Outlet, 152 The Arches Cir, Deer Park, NY 11729",
+        "locationLink": "https://www.google.com/maps/place/Tanger+Outlets+Deer+Park/@40.7651296,-73.3037164,15z/data=!4m5!3m4!1s0x0:0xf3a25505d7da5231!8m2!3d40.7651296!4d-73.3037164"
+    },
+    {
+        "event": "Secaucus 2021 Street Fair",
+        "image": "secaucus-street-fair.png",
+        "duration": "Oct 1, 2021 - Oct 3, 2021",
+        "time": "10/1 ~ 6:00pm - 11:00pm <br/>10/2 ~ 2:00pm - 11:00pm <br/>10/3 ~ 1:00pm - 6:00pm",
+        "location": "Municipal Government Center, 1203 Paterson Plank Rd, Secaucus, NJ 07094",
+        "locationLink": "https://www.google.com/maps/place/Municipal+Government+Center/@40.7880355,-74.0549596,15z/data=!4m5!3m4!1s0x0:0xc1cf5763f1894a6b!8m2!3d40.7880355!4d-74.0549596"
     }
 ]

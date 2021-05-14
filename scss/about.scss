@@ -1,0 +1,21 @@
+/* About Section */
+#about {
+    color: $light;
+    p {
+        padding: 10px;
+        line-height: 1.8rem;
+    }
+    .about-img {
+        padding: 0 50px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    #about {
+        .about-img {
+            padding: 0;
+        }
+    }
+}

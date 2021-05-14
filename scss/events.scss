@@ -1,0 +1,170 @@
+#events {
+    background-color: $light;
+    .event-container {
+        .card-container {
+            margin-bottom: 30px;
+            position: relative;
+            .card {
+                position: relative;
+                background-color: transparent;
+                width: 280px;
+                height: 382px;
+                display: block;
+                z-index: 3;
+                .event-front,
+                .event-back {
+                    width: 280px;
+                    height: 382px;
+                    border: 1px solid var(--dark);
+                    padding: 20px;
+                    background-color: $light;
+                    box-shadow: 0 10px 6px -6px #424242d3;
+                    border-radius: 3px;
+                    position: absolute;
+                    backface-visibility: hidden;
+                    transition: all 300ms ease-in-out;
+                    p {
+                        color: var(--dark);
+                        font-size: 15px;
+                    }
+                    .event-name {
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                    .flip-btn,
+                    .flip-back {
+                        position: absolute;
+                        bottom: 5px;
+                        right: 5px;
+                        width: 45px;
+                        height: 45px;
+                        border: 1px dashed $dark-blue;
+                        border-radius: 50%;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        p {
+                            font-size: 10px;
+                            font-weight: bold;
+                            color: $dark-blue;
+                            transform: rotate(-25deg);
+                            margin: 0;
+                        }
+                    }
+                }
+                .event-front {
+                    transform: scale(1) perspective(600px) rotateY(0deg);
+                    .inner {
+                        width: 240px;
+                        height: 240px;
+                        background-color: #000;
+                        margin-bottom: 5px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            width: 100%;
+                            padding: 0 20px;
+                        }
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    .event-name {
+                        max-height: 36px;
+                        overflow: hidden;
+                    }
+                }
+                .event-back {
+                    transform: perspective(600px) rotateY(180deg);
+                    .event-name {
+                        text-align: center;
+                        border-bottom: 2px solid $dark;
+                    }
+                    
+                }
+                &.flipcard {
+                    z-index: 3;
+                    .event-front {
+                        transform: perspective(600px) rotateY(-180deg);
+                    }
+                    .event-back {
+                        transform: perspective(600px) rotateY(0deg);
+                    }
+                }
+            }
+        }
+    }
+    .event {
+        margin-bottom: 30px;
+        width: 290px;
+        border: 1px solid var(--dark);
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 10px 6px -6px #424242d3;
+        border-radius: 3px;
+        .inner {
+            width: 250px;
+            height: 250px;
+            background-color: #000;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
+        p {
+            margin: 0;
+            color: var(--dark);
+            font-size: 15px;
+        }
+    }
+
+
+    .event-link {
+        text-decoration: none;
+        
+    }
+}
+  
+
+@media (max-width: 768px) {
+    #events .event-link .event-front,
+    #events .event-link .event-back {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 425px) {
+    #events {
+        .event-link {
+            .event-front,
+            .event-back {
+                width: 100%;
+                margin: 20px auto;
+                padding: 12px;
+                .inner {
+                    width: 100%;
+                    height: 180px;
+                    img {
+                        padding: 0 5px;
+                    }
+                }
+                p {
+                    margin: 0;
+                    color: var(--dark);
+                    font-size: 14px;
+                }
+                .event-name {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    
+}

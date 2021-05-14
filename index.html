@@ -1,118 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>HangryDog</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HangryDog NYC</title>
-    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-    <section id="nav">
-        <h1 id="title">HangryDog</h1>
-        <div class="icon flex">
-            <a href="https://www.instagram.com/hangrydognyc/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/HangryDogNYC" target="_blank">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-        </div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-      </section>
-      <section id="main" class="active">
-        <nav>
-          <div class="hamburger is-active" id="hamburger-1">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </div>
-        </nav>
-
-        <div class="contain">
-            <!-- About -->
-            <section id="about" class="section row">
-                <div class="col-md-6 col-12">
-                    <div class="about-para">
-                        <h3>About</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus aspernatur totam voluptas a, minus eius. Quo maiores obcaecati ea minus ducimus dolorum nihil soluta dolor reprehenderit, nobis ullam quibusdam reiciendis beatae libero possimus quia nulla nesciunt distinctio odio et sed eveniet nam. Reiciendis natus quod fugiat aliquam neque magnam ipsa.
-                        </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="about-img">
-                        <img src="./img/hangry.png" alt="HangryDog " />
-                    </div>
-                </div>
-            </section>
-
-            <!-- MENU -->
-            <section id="menu" class="section">
-                <div class="board">
-                    <h3>Menu</h3>
-                    <div class="menu-container row justify-content-md-center"></div>
-                </div>
-            </section>
-
-            <!-- EVENTS -->
-            <section id="events" class="section">
-                <h3>Events</h3>
-                <div class="event-container flex">
-                    <a href="https://www.thebronxnightmarket.com/" target="_blank" class="event-link">
-                        <div class="event event-1">
-                            <div class="inner">
-                                <img src="img/bronx-night-market-1.png" alt="Bronx Night Market" />
-                            </div>
-                            <p class="event-name">Bronx Night Market</p>
-                            <p class="event-time">April 17, 2021 - October 30, 2021</p>
-                        </div>
-                    </a>
-                </div>
-            </section>
-
-            
-
-            
-
-            <!-- GALLERY -->
-            <section id="gallery" class="section">
-                <h3>Gallery</h3>
-                <div class="gallery-container container"></div>
-            </section>
-
-            <!-- CONTACT -->
-            <section id="contact" class="section">
-                <h3>Contact</h3>
-                <div class="contact-container container">
-                    <div class="icon-img">
-                        <a href="https://www.instagram.com/hangrydognyc/" target="_blank">
-                            <img src="./img/instagram.png" alt="instagram icon"/>
-                        </a>
-                        <a href="https://www.facebook.com/HangryDogNYC" target="_blank">
-                            <img src="./img/facebook.png" alt="facebook icon"/>
-                        </a>
-                    </div>
-                    <p><strong>Email:</strong> <a href="mailto:HangryDogNYC@gmial.com" target="_blank">HangryDogNYC@gmial.com</a></p>
-                </div>
-            </section>
-        </div>
-      </section>
-
-      
+  <!-- bootstrap v4.0.0 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <!-- JQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!-- Font Awsome JS Library -->
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!-- Lightbox Gallery -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-      <script src="./script.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <!-- Fixed Background -->
+    <figure id="top">
+        <div class="fixed-wrap">
+            <div id="fixed"></div>
+            <div class="intro">
+                <h1 class="display-4">HangryDog</h1>
+                <p>It's a stretch from the <span class="no-wrap">original recipe</span></p>
+            </div>
+        </div>
+    </figure>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm navbar-light" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h3>HangryDog</h3></a>
+
+            <!-- create a dropdown button for menue when screen gets too small -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <!-- ml-auto: pushes the menu to list to the right side when is is not collapse -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a> </li>
+                    <li class="nav-item"><a href="#events" class="nav-link">Events</a> </li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a> </li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ABOUT -->
+    <div id="about" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h2 class="display-4">About Us</h2>
+                    <hr>
+                    <p>
+                        Dedicated to Delicious Corndog<br/><br/>
+                        HangryDog is a new twist to your old corndog recipe. Inspired by the trending Korean hotdog, we created this new sweet and savory treat for everyone to enjoy. Made with chicken hotdogs and mozzarella cheese, battered and deep fried, then sprinkled with a hint of sugar; this treat is made to delight your taste buds.
+                    </p>
+                </div>
+                <div class="col-md-6 col-12 about-img">
+                    <img src="images/hangrydog-photo-pile-2.png" alt="HangryDog photo pile"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Events -->
+    <div id="events" class="container-fluid">
+        <div class="container">
+            <h2 class="display-4">Events</h2>
+            <hr>
+            <div class="event-container row">
+                <!-- 1 -->
+                <!-- <div class="card-container col-lg-4 col-md-6 col-12">
+                    <div class="card event-1">
+                        <div class="event-front">
+                            <div class="inner">
+                                <img src="images/bronx-night-market-1.png" alt="Bronx Night Market" />
+                            </div>
+                            <a href="https://www.thebronxnightmarket.com/" target="_blank" class="event-link">
+                                <p class="event-name">Bronx Night Market</p>
+                            </a>
+                            <p>Apr 17, 2021 - Oct 30, 2021 (Every Saturday)</p>
+                            <div class="flip-btn" data-id="event-1">
+                                <p>click to flip</p>
+                            </div>
+                            
+                        </div>
+                        <div class="event-back">
+                            <p class="event-name">Bronx Night Market</p>
+                            <p><strong>Date:</strong> Apr 17, 2021 - Oct 30, 2021 (Every Saturday)</p>
+                            <p><strong>Time:</strong> 12am - 7pm</p>
+                            <p><strong>Location:</strong> <a href="#" target="_blank">Fortham Plaza</a></p>
+                            <p><strong>Event Link:</strong> <a href="https://www.thebronxnightmarket.com/" target="_blank">thebronxnightmarket.com</a></p>
+                            <div class="flip-back">
+                                <p>click to flip</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MENU -->
+    <div id="menu" class="container-fluid">
+        <div class="container">
+            <h2 class="display-4">Menu</h2>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img src="./images/menu-1.png" alt="menu">
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="./images/menu-2.png" alt="menu">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- GALLERY -->
+    <div id="gallery" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-4">Gallery</h2>
+                    <hr>
+                </div>
+                <div class="gallery-container container">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5>Contact</h5>
+                        <div class="icon-img">
+                            <a href="https://www.facebook.com/katherine.he" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/kitkat020290/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <p>Email: <a href="mailto:HangryDogNYC@gmail.com" target="_blank">HangryDogNYC@gmail.com</a></p>
+                    </div>
+                    <div class="col-12">
+                        <hr/>
+                        <p class="footer">&copy; 2021 HangryDog | Website Designed by ​​<a href="https://asolace.com/" target="_blank">Asolace</a> & <a href="http://www.katherine-he.com/" target="_blank" class="no-wrap">Katherine He</a></p>
+                    </div>
+                </div>
+        </div>
+    </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
