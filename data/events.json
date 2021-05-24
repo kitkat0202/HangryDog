@@ -10,6 +10,16 @@
         "locationLink": "https://www.google.com/maps/place/Bronx+Night+Market/@40.8610671,-73.8909198,15z/data=!4m5!3m4!1s0x0:0x22adfcb40fd5709e!8m2!3d40.86114!4d-73.890855"
     },
     {
+        "event": "Bronx Night Market",
+        "eventLink": "https://www.thebronxnightmarket.com/",
+        "image": "bronx-night-market-1.png",
+        "duration": "May 30, 2021",
+        "time": "12:00pm - 7:00pm",
+        "days": "This Sunday Only",
+        "location": "Fordham Plaza, E Fordham Rd, Bronx, NY 10458",
+        "locationLink": "https://www.google.com/maps/place/Bronx+Night+Market/@40.8610671,-73.8909198,15z/data=!4m5!3m4!1s0x0:0x22adfcb40fd5709e!8m2!3d40.86114!4d-73.890855"
+    },
+    {
         "event": "Lunch Break NYC",
         "image": "lunch-break-nyc-holder.png",
         "duration": "May 26, 2021 - Jun 4, 2021",
