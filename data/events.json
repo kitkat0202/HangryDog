@@ -11,8 +11,9 @@
     },
     {
         "event": "Lunch Break NYC",
-        "image": "lunch-break-nyc-holder.png",
-        "duration": "May 26, 2021 - Jun 4, 2021",
+        "image": "lunch-break-nyc-holder-2.png",
+        "imgLong": true,
+        "duration": "May 26, 2021 - Oct 2021",
         "time": "11:00am - 4:00pm",
         "days": "Wed - Fri",
         "location": "Municipal Plaza City Hall,  New York, NY 10007 ",

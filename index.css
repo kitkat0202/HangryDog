@@ -285,6 +285,11 @@ Extra (xl) devices (large desktop, 1200px and up)
   font-weight: bold;
   margin-bottom: 0;
 }
+#events .event-container .card-container .card .event-front .long-img,
+#events .event-container .card-container .card .event-back .long-img {
+  width: auto !important;
+  height: 95%;
+}
 #events .event-container .card-container .card .event-front .flip-btn,
 #events .event-container .card-container .card .event-front .flip-back,
 #events .event-container .card-container .card .event-back .flip-btn,
