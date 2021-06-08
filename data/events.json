@@ -10,14 +10,13 @@
         "locationLink": "https://www.google.com/maps/place/Bronx+Night+Market/@40.8610671,-73.8909198,15z/data=!4m5!3m4!1s0x0:0x22adfcb40fd5709e!8m2!3d40.86114!4d-73.890855"
     },
     {
-        "event": "Lunch Break NYC",
-        "image": "lunch-break-nyc-holder-2.png",
-        "imgLong": true,
-        "duration": "May 26, 2021 - Oct 2021",
-        "time": "11:00am - 4:00pm",
-        "days": "Wed - Fri",
-        "location": "Municipal Plaza City Hall,  New York, NY 10007 ",
-        "locationLink": "https://www.google.com/maps/place/New+York+City+Hall/@40.7127744,-74.006059,15z/data=!4m2!3m1!1s0x0:0x7f1e88758d210007?sa=X&ved=2ahUKEwjFzPn_18XwAhUNLa0KHb9HA8wQ_BIwE3oECFEQBQ"
+        "event": "Forest Hills Festival of the Arts",
+        "eventLink": "https://www.clearviewfestival.com/home",
+        "image": "clearview.png",
+        "duration": "Sunday, JUNE 13 2021",
+        "time": "10:00am - 6:30pm",
+        "location": "on Austin Street from 69th Road to 72nd Road",
+        "locationLink": "https://www.google.com/maps/place/40%C2%B043'08.4%22N+73%C2%B050'29.5%22W/@40.719002,-73.8420852,19z/data=!3m1!4b1!4m9!1m2!2m1!1son+Austin+Street+from+69th+Road+to+72nd+Road!3m5!1s0x0:0x0!7e2!8m2!3d40.7190014!4d-73.8415383"
     },
     {
         "event": "Famous Food Festival",
