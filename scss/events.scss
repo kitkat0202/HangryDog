@@ -141,6 +141,16 @@
         
     }
 }
+
+.holder {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 3px;
+    p {
+        margin: 0;
+        font-weight: bold;
+    }
+}
   
 
 @media (max-width: 768px) {

@@ -15,9 +15,12 @@ $(document).ready(function () {
     // Events
     $.getJSON('./data/events.json', function(data) { 
         $.each(data, function(key, value) {
-            $(".event-container").append($(`<div class="card-container col-lg-4 col-md-6 col-12"><div class="card event-${key}"></div></div>`))
-            $(`.event-${key}`).append($(`<div class="event-front flip-btn" data-id="event-${key}"><div class="inner flip-btn" data-id="event-${key}"><img src="images/${value.image}" class="flip-btn ${value.imgLong ? 'long-img' : ''}" data-id="event-${key}" alt="${value.event}" /></div><p class="event-name flip-btn" data-id="event-${key}">${value.event}</p><p class="flip-btn" data-id="event-${key}">${value.duration} ${value.days ? "(" + value.days + ")" : ""}</p>`))
-            $(`.event-${key}`).append($(`<div class="event-back"><p class="event-name">${value.event}</p><p><strong>Date:</strong> ${value.duration} ${value.days ? "("+ value.days +")" : ""}</p><p><strong>Time:</strong> ${value.time}</p>${value.eventLink ? '<p><strong>Event Link:</strong> <a href="' + value.eventLink +'" target="_blank">' + value.eventLink +'</a></p>' : "" }<p><strong>Location:</strong> <a href="${value.locationLink}" target="_blank">${value.location}</a></p><div class="flip-back"><p>click to flip</p></div></div>`))
+            if (!value.past) {
+                $(".event-container").append($(`<div class="card-container col-lg-4 col-md-6 col-12"><div class="card event-${key}"></div></div>`))
+                $(`.event-${key}`).append($(`<div class="event-front flip-btn" data-id="event-${key}"><div class="inner flip-btn" data-id="event-${key}"><img src="images/${value.image}" class="flip-btn ${value.imgLong ? 'long-img' : ''}" data-id="event-${key}" alt="${value.event}" /></div><p class="event-name flip-btn" data-id="event-${key}">${value.event}</p><p class="flip-btn" data-id="event-${key}">${value.duration} ${value.days ? "(" + value.days + ")" : ""}</p>`))
+                $(`.event-${key}`).append($(`<div class="event-back"><p class="event-name">${value.event}</p><p><strong>Date:</strong> ${value.duration} ${value.days ? "("+ value.days +")" : ""}</p><p><strong>Time:</strong> ${value.time}</p>${value.eventLink ? '<p><strong>Event Link:</strong> <a href="' + value.eventLink +'" target="_blank">' + value.eventLink +'</a></p>' : "" }<p><strong>Location:</strong> <a href="${value.locationLink}" target="_blank">${value.location}</a></p><div class="flip-back"><p>click to flip</p></div></div>`))
+            }
+            
         }) 
     })
     // HTML
@@ -61,14 +64,19 @@ $(document).ready(function () {
     // }
 
     // Flip Back Card
-    $(document).on("click touchend", ".flip-back",function() {
+    $(document).on("click", ".flip-back",function() {
         $(".flipcard").removeClass("flipcard");
+    })
+
+    $(document).on("click",function(e) {
+        // console.log(e.target.className);
+        $("#details").text(`this is: ${e.target.className}`)
     })
 
     
 
     // Flip Event Card
-    $(document).on("click touchend", ".flip-btn",function() {
+    $(document).on("click", ".flip-btn",function() {
         var dataId = $(this).attr("data-id");
         $(".flipcard").removeClass("flipcard");
         setTimeout(function(){ $(`.${dataId}`).addClass("flipcard"); }, 200);

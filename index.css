@@ -389,6 +389,16 @@ Extra (xl) devices (large desktop, 1200px and up)
   text-decoration: none;
 }
 
+.holder {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 3px;
+}
+.holder p {
+  margin: 0;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   #events .event-link .event-front,
 #events .event-link .event-back {
