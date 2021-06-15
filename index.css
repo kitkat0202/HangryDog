@@ -295,9 +295,6 @@ Extra (xl) devices (large desktop, 1200px and up)
 #events .event-container .card-container .card .event-back .flip-btn,
 #events .event-container .card-container .card .event-back .flip-back {
   cursor: pointer;
-}
-#events .event-container .card-container .card .event-front .flip-back,
-#events .event-container .card-container .card .event-back .flip-back {
   position: absolute;
   bottom: 5px;
   right: 5px;
@@ -309,9 +306,6 @@ Extra (xl) devices (large desktop, 1200px and up)
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#events .event-container .card-container .card .event-front .flip-back p,
-#events .event-container .card-container .card .event-back .flip-back p {
   font-size: 10px;
   font-weight: bold;
   color: #3b68bb;
@@ -320,10 +314,6 @@ Extra (xl) devices (large desktop, 1200px and up)
 }
 #events .event-container .card-container .card .event-front {
   transform: scale(1) perspective(600px) rotateY(0deg);
-}
-#events .event-container .card-container .card .event-front:hover {
-  box-shadow: none;
-  margin-top: 3px;
 }
 #events .event-container .card-container .card .event-front .inner {
   width: 240px;
