@@ -33,6 +33,46 @@
     },
     {
         "past": false,
+        "event": "AVENUE OF THE AMERICAS EXPO - location 1",
+        "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
+        "image": "mardi-gras.png",
+        "duration": "July 10",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between 43rd & 44th St. - on 6th Ave.",
+        "locationLink": "https://goo.gl/maps/csKRJ84fszQjYjQo6"
+    },
+    {
+        "past": false,
+        "event": "AVENUE OF THE AMERICAS EXPO - location 2",
+        "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
+        "image": "mardi-gras.png",
+        "duration": "July 10",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between 48th & 49th St. - on 6th Ave.",
+        "locationLink": "https://goo.gl/maps/PqRdHoX2hMppPEuf9"
+    },
+    {
+        "past": false,
+        "event": "PRIDE ON ASTOR FAIR",
+        "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
+        "image": "mardi-gras.png",
+        "duration": "July 11",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between Broadway & Lafayette St- on Astor Place",
+        "locationLink": "https://goo.gl/maps/wYZikLbAhvTHxVB96"
+    },
+    {
+        "past": false,
+        "event": "Broadway Movie Day Festival",
+        "eventLink": "https://www.clearviewfestival.com/home",
+        "image": "clearview.png",
+        "duration": "July 11",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between 49th & 50th St - Broadway",
+        "locationLink": "https://goo.gl/maps/MKiNFqGURvXsxxUH7"
+    },
+    {
+        "past": false,
         "event": "Avenue of the Americans Summer Fair",
         "eventLink": "http://nycstreetfairs.com/",
         "image": "mardi-gras-productions.jpeg",
