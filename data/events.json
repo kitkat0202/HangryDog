@@ -86,10 +86,20 @@
         "event": "Times Square West Spectacular",
         "eventLink": "http://nycstreetfairs.com/",
         "image": "mardi-gras-productions.jpeg",
-        "duration": "June 31, 2021",
+        "duration": "July 31, 2021",
         "time": "10:00am - 6:00pm",
         "location": "8th Ave between 42d and 52th street, Mahattan NYC",
         "locationLink": "https://www.google.com/maps/dir/40.7635441,-73.9851976/40.7571348,-73.9899065/@40.7618806,-73.9905176,16.5z/data=!4m2!4m1!3e2"
+    },
+    {
+        "past": false,
+        "event": "EZoo",
+        "eventLink": "https://electriczoo.com/",
+        "image": "ezoo2021.png",
+        "duration": "Sep 3, 2021 - Sep 5, 2021",
+        "time": "1:00pm - 11:00pm",
+        "location": "Randall’s Island Park",
+        "locationLink": "https://goo.gl/maps/tfr4t2dS3AEUjjA36"
     },
     {
         "past": false,
