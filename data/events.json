@@ -32,7 +32,7 @@
         "locationLink": "https://www.google.com/maps/place/40%C2%B043'08.4%22N+73%C2%B050'29.5%22W/@40.719002,-73.8420852,19z/data=!3m1!4b1!4m9!1m2!2m1!1son+Austin+Street+from+69th+Road+to+72nd+Road!3m5!1s0x0:0x0!7e2!8m2!3d40.7190014!4d-73.8415383"
     },
     {
-        "past": false,
+        "past": true,
         "event": "AVENUE OF THE AMERICAS EXPO - location 1",
         "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
         "image": "mardi-gras.png",
@@ -42,7 +42,7 @@
         "locationLink": "https://goo.gl/maps/csKRJ84fszQjYjQo6"
     },
     {
-        "past": false,
+        "past": true,
         "event": "AVENUE OF THE AMERICAS EXPO - location 2",
         "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
         "image": "mardi-gras.png",
@@ -52,7 +52,7 @@
         "locationLink": "https://goo.gl/maps/PqRdHoX2hMppPEuf9"
     },
     {
-        "past": false,
+        "past": true,
         "event": "PRIDE ON ASTOR FAIR",
         "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
         "image": "mardi-gras.png",
@@ -62,7 +62,7 @@
         "locationLink": "https://goo.gl/maps/wYZikLbAhvTHxVB96"
     },
     {
-        "past": false,
+        "past": true,
         "event": "Broadway Movie Day Festival",
         "eventLink": "https://www.clearviewfestival.com/home",
         "image": "clearview.png",
@@ -72,7 +72,7 @@
         "locationLink": "https://goo.gl/maps/MKiNFqGURvXsxxUH7"
     },
     {
-        "past": false,
+        "past": true,
         "event": "Avenue of the Americans Summer Fair",
         "eventLink": "http://nycstreetfairs.com/",
         "image": "mardi-gras-productions.jpeg",
@@ -80,6 +80,16 @@
         "time": "10:00am - 6:00pm",
         "location": "6th Ave between 42d and 56th street, Mahattan NYC",
         "locationLink": "https://www.google.com/maps/dir/40.7636294,-73.9776984/1100-1116+Bryant+Park,+New+York,+NY+10036/@40.7595741,-73.9850308,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x89c259aab2cffbed:0x86633bb973a3d1e1!2m2!1d-73.9838595!2d40.7551834!3e2"
+    },
+    {
+        "past": false,
+        "event": "Times Square West Spectacular",
+        "eventLink": "http://nycstreetfairs.com/",
+        "image": "mardi-gras-productions.jpeg",
+        "duration": "June 31, 2021",
+        "time": "10:00am - 6:00pm",
+        "location": "8th Ave between 42d and 52th street, Mahattan NYC",
+        "locationLink": "https://www.google.com/maps/dir/40.7635441,-73.9851976/40.7571348,-73.9899065/@40.7618806,-73.9905176,16.5z/data=!4m2!4m1!3e2"
     },
     {
         "past": false,
