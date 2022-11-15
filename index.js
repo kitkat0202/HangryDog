@@ -13,16 +13,16 @@ window.onscroll = () => {
 $(document).ready(function () {
 
     // Events
-    $.getJSON('./data/events.json', function(data) { 
-        $.each(data, function(key, value) {
-            if (!value.past) {
-                $(".event-container").append($(`<div class="card-container col-lg-4 col-md-6 col-12"><div class="card event-${key}"></div></div>`))
-                $(`.event-${key}`).append($(`<div class="event-front"><div class="inner"><img src="images/${value.image}" ${value.imgLong ? 'long-img' : ''}" alt="${value.event}" /></div><p class="event-name">${value.event}</p><p>${value.duration} ${value.days ? "(" + value.days + ")" : ""}</p><p class="flip-btn" data-id="event-${key}">click to flip</p>`))
-                $(`.event-${key}`).append($(`<div class="event-back"><p class="event-name">${value.event}</p><p><strong>Date:</strong> ${value.duration} ${value.days ? "("+ value.days +")" : ""}</p><p><strong>Time:</strong> ${value.time}</p>${value.eventLink ? '<p><strong>Event Link:</strong> <a href="' + value.eventLink +'" target="_blank">' + value.eventLink +'</a></p>' : "" }<p><strong>Location:</strong> <a href="${value.locationLink}" target="_blank">${value.location}</a></p><p class="flip-back">click to flip</p></div>`))
-            }
-            
-        }) 
-    })
+    // $.getJSON('./data/events.json', function(data) {
+    //     $.each(data, function(key, value) {
+    //         if (!value.past) {
+    //             $(".event-container").append($(`<div class="card-container col-lg-4 col-md-6 col-12"><div class="card event-${key}"></div></div>`))
+    //             $(`.event-${key}`).append($(`<div class="event-front"><div class="inner"><img src="images/${value.image}" ${value.imgLong ? 'long-img' : ''}" alt="${value.event}" /></div><p class="event-name">${value.event}</p><p>${value.duration} ${value.days ? "(" + value.days + ")" : ""}</p><p class="flip-btn" data-id="event-${key}">click to flip</p>`))
+    //             $(`.event-${key}`).append($(`<div class="event-back"><p class="event-name">${value.event}</p><p><strong>Date:</strong> ${value.duration} ${value.days ? "("+ value.days +")" : ""}</p><p><strong>Time:</strong> ${value.time}</p>${value.eventLink ? '<p><strong>Event Link:</strong> <a href="' + value.eventLink +'" target="_blank">' + value.eventLink +'</a></p>' : "" }<p><strong>Location:</strong> <a href="${value.locationLink}" target="_blank">${value.location}</a></p><p class="flip-back">click to flip</p></div>`))
+    //         }
+
+    //     })
+    // })
     // HTML
     // <div class="card-container col-lg-4 col-md-6 col-12">
     //     <div class="card event-1">
@@ -36,7 +36,7 @@ $(document).ready(function () {
     //             <p>Apr 17, 2021 - Oct 30, 2021 (Every Saturday)</p>
     //             <div class="flip-btn" data-id="event-1">
     //                 <p>click to flip</p>
-    //             </div>      
+    //             </div>
     //         </div>
     //         <div class="event-back">
     //             <p class="event-name">Bronx Night Market</p>
@@ -61,23 +61,23 @@ $(document).ready(function () {
     //     $("#details").text(`this is: ${e.target.className}`)
     // })
 
-    
+
 
     // Flip Event Card
     $(document).on("click", ".flip-btn",function() {
         var dataId = $(this).attr("data-id");
         $(".flipcard").removeClass("flipcard");
         setTimeout(function(){ $(`.${dataId}`).addClass("flipcard"); }, 200);
-        
+
     })
 
 
-    
+
     // Gallery
-    $.getJSON('./data/gallery.json', function(data) { 
+    $.getJSON('./data/gallery.json', function(data) {
         $.each(data, function(key, value) {
             $(".gallery-container").append($(`<a href="images/${value.img}" data-lightbox="${value.data}" class="${value.class}"><img src="images/${value.img}" alt="${value.alt}"/></a>`))
-        }) 
+        })
     })
     // <a href="img/gallery_1.jpg" data-lightbox="hangrydogGallery" class="horizontal">
     //   <img src="img/gallery_1.jpg"/>
