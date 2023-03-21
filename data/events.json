@@ -1,0 +1,123 @@
+[
+    {
+        "past": true,
+        "event": "Bronx Night Market",
+        "eventLink": "https://www.thebronxnightmarket.com/",
+        "image": "bronx-night-market-1.png",
+        "duration": "Apr 17, 2021 - Oct 30, 2021",
+        "time": "12:00pm - 7:00pm",
+        "days": "Every Saturday",
+        "location": "Fordham Plaza, E Fordham Rd, Bronx, NY 10458",
+        "locationLink": "https://www.google.com/maps/place/Bronx+Night+Market/@40.8610671,-73.8909198,15z/data=!4m5!3m4!1s0x0:0x22adfcb40fd5709e!8m2!3d40.86114!4d-73.890855"
+    },
+    {
+        "past": true,
+        "event": "Lunch Break NYC",
+        "image": "lunch-break-nyc-holder-2.png",
+        "imgLong": true,
+        "duration": "May 26, 2021 - Oct 2021",
+        "time": "11:00am - 4:00pm",
+        "days": "Wed - Fri",
+        "location": "Municipal Plaza City Hall,  New York, NY 10007 ",
+        "locationLink": "https://www.google.com/maps/place/New+York+City+Hall/@40.7127744,-74.006059,15z/data=!4m2!3m1!1s0x0:0x7f1e88758d210007?sa=X&ved=2ahUKEwjFzPn_18XwAhUNLa0KHb9HA8wQ_BIwE3oECFEQBQ"
+    },
+    {
+        "past": true,
+        "event": "Forest Hills Festival of the Arts",
+        "eventLink": "https://www.clearviewfestival.com/home",
+        "image": "clearview.png",
+        "duration": "Sunday, JUNE 13 2021",
+        "time": "10:00am - 6:30pm",
+        "location": "on Austin Street from 69th Road to 72nd Road",
+        "locationLink": "https://www.google.com/maps/place/40%C2%B043'08.4%22N+73%C2%B050'29.5%22W/@40.719002,-73.8420852,19z/data=!3m1!4b1!4m9!1m2!2m1!1son+Austin+Street+from+69th+Road+to+72nd+Road!3m5!1s0x0:0x0!7e2!8m2!3d40.7190014!4d-73.8415383"
+    },
+    {
+        "past": true,
+        "event": "AVENUE OF THE AMERICAS EXPO - location 1",
+        "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
+        "image": "mardi-gras.png",
+        "duration": "July 10",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between 43rd & 44th St. - on 6th Ave.",
+        "locationLink": "https://goo.gl/maps/csKRJ84fszQjYjQo6"
+    },
+    {
+        "past": true,
+        "event": "AVENUE OF THE AMERICAS EXPO - location 2",
+        "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
+        "image": "mardi-gras.png",
+        "duration": "July 10",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between 48th & 49th St. - on 6th Ave.",
+        "locationLink": "https://goo.gl/maps/PqRdHoX2hMppPEuf9"
+    },
+    {
+        "past": true,
+        "event": "PRIDE ON ASTOR FAIR",
+        "eventLink": "http://nycstreetfairs.com/schedule-of-festivals/",
+        "image": "mardi-gras.png",
+        "duration": "July 11",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between Broadway & Lafayette St- on Astor Place",
+        "locationLink": "https://goo.gl/maps/wYZikLbAhvTHxVB96"
+    },
+    {
+        "past": true,
+        "event": "Broadway Movie Day Festival",
+        "eventLink": "https://www.clearviewfestival.com/home",
+        "image": "clearview.png",
+        "duration": "July 11",
+        "time": "10:00am - 6pm",
+        "location": "NYC, between 49th & 50th St - Broadway",
+        "locationLink": "https://goo.gl/maps/MKiNFqGURvXsxxUH7"
+    },
+    {
+        "past": true,
+        "event": "Avenue of the Americans Summer Fair",
+        "eventLink": "http://nycstreetfairs.com/",
+        "image": "mardi-gras-productions.jpeg",
+        "duration": "June 20, 2021",
+        "time": "10:00am - 6:00pm",
+        "location": "6th Ave between 42d and 56th street, Mahattan NYC",
+        "locationLink": "https://www.google.com/maps/dir/40.7636294,-73.9776984/1100-1116+Bryant+Park,+New+York,+NY+10036/@40.7595741,-73.9850308,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x89c259aab2cffbed:0x86633bb973a3d1e1!2m2!1d-73.9838595!2d40.7551834!3e2"
+    },
+    {
+        "past": true,
+        "event": "Times Square West Spectacular",
+        "eventLink": "http://nycstreetfairs.com/",
+        "image": "mardi-gras-productions.jpeg",
+        "duration": "July 31, 2021",
+        "time": "10:00am - 6:00pm",
+        "location": "8th Ave between 42d and 52th street, Mahattan NYC",
+        "locationLink": "https://www.google.com/maps/dir/40.7635441,-73.9851976/40.7571348,-73.9899065/@40.7618806,-73.9905176,16.5z/data=!4m2!4m1!3e2"
+    },
+    {
+        "past": true,
+        "event": "EZoo",
+        "eventLink": "https://electriczoo.com/",
+        "image": "ezoo2021.png",
+        "duration": "Sep 3, 2021 - Sep 5, 2021",
+        "time": "1:00pm - 11:00pm",
+        "location": "Randall’s Island Park",
+        "locationLink": "https://goo.gl/maps/tfr4t2dS3AEUjjA36"
+    },
+    {
+        "past": true,
+        "event": "Famous Food Festival",
+        "eventLink": "https://www.famousfoodfestival.com/",
+        "image": "famous-food-festival.png",
+        "duration": "Sep 3, 2021 - Sep 6, 2021",
+        "time": "9/3 ~ 3:00pm - 9:00pm <br/> 9/4 to 9/6 ~ 11:00am - 8:00pm",
+        "location": "Tanger Outlet, 152 The Arches Cir, Deer Park, NY 11729",
+        "locationLink": "https://www.google.com/maps/place/Tanger+Outlets+Deer+Park/@40.7651296,-73.3037164,15z/data=!4m5!3m4!1s0x0:0xf3a25505d7da5231!8m2!3d40.7651296!4d-73.3037164"
+    },
+    {
+        "past": true,
+        "event": "Secaucus 2021 Street Fair",
+        "image": "secaucus-street-fair.png",
+        "duration": "Oct 1, 2021 - Oct 3, 2021",
+        "time": "10/1 ~ 6:00pm - 11:00pm <br/>10/2 ~ 2:00pm - 11:00pm <br/>10/3 ~ 1:00pm - 6:00pm",
+        "location": "Municipal Government Center, 1203 Paterson Plank Rd, Secaucus, NJ 07094",
+        "locationLink": "https://www.google.com/maps/place/Municipal+Government+Center/@40.7880355,-74.0549596,15z/data=!4m5!3m4!1s0x0:0xc1cf5763f1894a6b!8m2!3d40.7880355!4d-74.0549596"
+    }
+]

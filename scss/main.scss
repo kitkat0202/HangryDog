@@ -1,0 +1,205 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: $text;
+    color: $dark;
+    background-color: $dark;
+}
+
+h1, h2, h3 {
+    font-family: $title;
+}
+
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.display-4 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.small-text {
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -1px;
+    word-spacing: .5px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+hr {
+    border-top: 2px solid #b4b4b4;
+    width: calc(100% - 10px);
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 100px 50px;
+}
+
+
+
+////////////////////////////
+// Fixed Background Image //
+////////////////////////////
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+    .fixed-wrap {
+        clip: rect(0, auto, auto, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        #fixed {
+            background-image: url('images/hangry.jpg');
+            opacity: .5;
+            background-position: center center;
+            position: fixed;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+        .intro {
+            padding: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: $yellow;
+            text-shadow: 1px 1px 3px #000;
+            h1 {
+                font-weight: bold;
+                margin-bottom: 15px;
+                font-size: 4.5rem;
+            }
+            p {
+                font-size: 1.5rem;
+                letter-spacing: 2px;
+            }
+        }
+
+    }
+}
+
+
+
+
+////////////////////
+// Footer section //
+////////////////////
+footer {
+    background-color: $dark;
+    color: #fff;
+    padding: 2.5rem 2rem;
+
+    h5 {
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    p {
+        margin-bottom: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $yellow;
+        &:hover {
+            text-decoration: underline;
+            color: $blue !important;
+        }
+        &:active,
+        &:visited {
+            color: $yellow;
+        }
+    }
+
+    .footer {
+        margin: 10px 0 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .icon-img {
+        font-size: 40px;
+        letter-spacing: 20px;
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
+/* Media Queries screen at 768px or larger*/
+@media (max-width: 768px) {
+    figure {
+        height: 40%;
+        .fixed-wrap #fixed {
+            top: -20%;
+        }
+    }
+}
+
+
+/* Media Queries screen at 576px or larger*/
+@media (max-width: 576px) {
+    .container-fluid {
+        padding: 30px 20px;
+    }
+
+    figure .fixed-wrap .intro {
+        h1 {
+            margin-bottom: 10px;
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    footer {
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-fluid {
+        padding: 30px 10px;
+    }
+}
+
+/* 
+Extra small (xs) devices (portrate phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktop, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) devices (large desktop, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

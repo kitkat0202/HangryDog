@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&family=Raleway:wght@400;700&display=swap');
+
+@import "./scss/var.scss";
+@import "./scss/main.scss";
+@import "./scss/navbar.scss";
+@import "./scss/about.scss";
+@import "./scss/events.scss";
+@import "./scss/menu.scss";
+@import "./scss/gallery.scss";
+
+/* 
+Extra small (xs) devices (portrate phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktop, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) devices (large desktop, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
