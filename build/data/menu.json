@@ -1,0 +1,38 @@
+[
+    {
+        "file": "1.png",
+        "name": "Classic",
+        "containerClass": "item-photo",
+        "imgClass": "item-img"
+    },
+    {
+        "file": "2.png",
+        "name": "Half & Half",
+        "containerClass": "item-photo",
+        "imgClass": "item-img"
+    },
+    {
+        "file": "3.png",
+        "name": "Mozzarella",
+        "containerClass": "item-photo",
+        "imgClass": "item-img"
+    },
+    {
+        "file": "4.png",
+        "name": "HangryDog",
+        "containerClass": "item-photo",
+        "imgClass": "item-img"
+    },
+    {
+        "file": "5.png",
+        "name": "Potato Crust",
+        "containerClass": "item-photo",
+        "imgClass": "item-img"
+    },
+    {
+        "file": "6.png",
+        "name": "Sweet Potato Crust",
+        "containerClass": "item-photo",
+        "imgClass": "item-img"
+    }
+]

@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Raleway:wght@400;700&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  background-color: #333;
+}
+
+h1, h2, h3 {
+  font-family: "Averia Libre", cursive;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.display-4 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.small-text {
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: -1px;
+  word-spacing: 0.5px;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+hr {
+  border-top: 2px solid #b4b4b4;
+  width: calc(100% - 10px);
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 100px 50px;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+figure .fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure .fixed-wrap #fixed {
+  background-image: url("images/hangry.jpg");
+  opacity: 0.5;
+  background-position: center center;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+figure .fixed-wrap .intro {
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #e9e372;
+  text-shadow: 1px 1px 3px #000;
+}
+figure .fixed-wrap .intro h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 4.5rem;
+}
+figure .fixed-wrap .intro p {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2.5rem 2rem;
+}
+footer h5 {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+}
+footer p {
+  margin-bottom: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: #e9e372;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #b6e2e3 !important;
+}
+footer a:active, footer a:visited {
+  color: #e9e372;
+}
+footer .footer {
+  margin: 10px 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+footer .icon-img {
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+footer .icon-img a:hover {
+  text-decoration: none;
+}
+
+/* Media Queries screen at 768px or larger*/
+@media (max-width: 768px) {
+  figure {
+    height: 40%;
+  }
+  figure .fixed-wrap #fixed {
+    top: -20%;
+  }
+}
+/* Media Queries screen at 576px or larger*/
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 30px 20px;
+  }
+
+  figure .fixed-wrap .intro h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+  }
+  figure .fixed-wrap .intro p {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 2.5rem 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .container-fluid {
+    padding: 30px 10px;
+  }
+}
+/* 
+Extra small (xs) devices (portrate phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktop, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) devices (large desktop, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+.navbar {
+  padding: 0.8rem;
+  background-color: #e9e372;
+}
+.navbar .navbar-brand h3 {
+  color: #333;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+.navbar .navbar-brand h3 .navbar-nav li {
+  padding-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.2em !important;
+  padding-bottom: 0 !important;
+  border-bottom: 1px solid #e9e372;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  border-bottom: 1px solid #333;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+/* Media Queries screen at 992px or larger*/
+@media (max-width: 992px) {
+  .navbar-brand h1 {
+    font-size: 2rem;
+  }
+}
+/* Media Queries screen at 768px or larger*/
+@media (max-width: 768px) {
+  .navbar-brand h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Media Queries screen at 576px or larger*/
+@media (max-width: 576px) {
+  .navbar-brand h1 {
+    font-size: 1rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active {
+    border-bottom: none;
+    font-weight: bold;
+  }
+}
+/* About Section */
+#about {
+  color: #fff;
+}
+#about p {
+  padding: 10px;
+  line-height: 1.8rem;
+}
+#about .about-img {
+  padding: 0 50px;
+}
+
+@media (max-width: 425px) {
+  #about .about-img {
+    padding: 0;
+  }
+}
+#events {
+  background-color: #fff;
+}
+#events .event-container .card-container {
+  margin-bottom: 30px;
+  position: relative;
+}
+#events .event-container .card-container .card {
+  position: relative;
+  background-color: transparent;
+  width: 280px;
+  height: 382px;
+  display: block;
+  z-index: 3;
+}
+#events .event-container .card-container .card .event-front,
+#events .event-container .card-container .card .event-back {
+  width: 280px;
+  height: 382px;
+  border: 1px solid var(--dark);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 6px -6px rgba(66, 66, 66, 0.8274509804);
+  border-radius: 3px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: all 300ms ease-in-out;
+}
+#events .event-container .card-container .card .event-front p,
+#events .event-container .card-container .card .event-back p {
+  color: var(--dark);
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+#events .event-container .card-container .card .event-front .event-name,
+#events .event-container .card-container .card .event-back .event-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#events .event-container .card-container .card .event-front .long-img,
+#events .event-container .card-container .card .event-back .long-img {
+  width: auto !important;
+  height: 95%;
+}
+#events .event-container .card-container .card .event-front .flip-btn,
+#events .event-container .card-container .card .event-front .flip-back,
+#events .event-container .card-container .card .event-back .flip-btn,
+#events .event-container .card-container .card .event-back .flip-back {
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 45px;
+  height: 45px;
+  border: 1px dashed #3b68bb;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #3b68bb;
+  transform: rotate(-25deg);
+  margin: 0;
+}
+#events .event-container .card-container .card .event-front {
+  transform: scale(1) perspective(600px) rotateY(0deg);
+}
+#events .event-container .card-container .card .event-front .inner {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#events .event-container .card-container .card .event-front .inner img {
+  width: 100%;
+  padding: 0 20px;
+}
+#events .event-container .card-container .card .event-front .event-name {
+  max-height: 36px;
+  overflow: hidden;
+}
+#events .event-container .card-container .card .event-back {
+  transform: perspective(600px) rotateY(180deg);
+}
+#events .event-container .card-container .card .event-back .event-name {
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+#events .event-container .card-container .card.flipcard {
+  z-index: 3;
+}
+#events .event-container .card-container .card.flipcard .event-front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+#events .event-container .card-container .card.flipcard .event-back {
+  transform: perspective(600px) rotateY(0deg);
+}
+#events .event {
+  margin-bottom: 30px;
+  width: 290px;
+  border: 1px solid var(--dark);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 6px -6px rgba(66, 66, 66, 0.8274509804);
+  border-radius: 3px;
+}
+#events .event .inner {
+  width: 250px;
+  height: 250px;
+  background-color: #000;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#events .event .inner img {
+  width: 100%;
+  padding: 0 20px;
+}
+#events .event p {
+  margin: 0;
+  color: var(--dark);
+  font-size: 15px;
+}
+#events .event-link {
+  text-decoration: none;
+}
+
+.holder {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 3px;
+}
+.holder p {
+  margin: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #events .event-link .event-front,
+#events .event-link .event-back {
+    margin: 30px auto;
+  }
+}
+@media (max-width: 425px) {
+  #events .event-link .event-front,
+#events .event-link .event-back {
+    width: 100%;
+    margin: 20px auto;
+    padding: 12px;
+  }
+  #events .event-link .event-front .inner,
+#events .event-link .event-back .inner {
+    width: 100%;
+    height: 180px;
+  }
+  #events .event-link .event-front .inner img,
+#events .event-link .event-back .inner img {
+    padding: 0 5px;
+  }
+  #events .event-link .event-front p,
+#events .event-link .event-back p {
+    margin: 0;
+    color: var(--dark);
+    font-size: 14px;
+  }
+  #events .event-link .event-front .event-name,
+#events .event-link .event-back .event-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+#menu {
+  background-color: #b6e2e3;
+}
+
+@media (max-width: 922px) {
+  #menu {
+    padding: 100px 0px;
+  }
+}
+#gallery {
+  background-color: #fff;
+}
+
+.gallery-container > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.gallery-container > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 2px 16px var(--shadow);
+  border: 1px solid #333;
+}
+
+.gallery-container {
+  width: 100% !important;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-auto-rows: 120px;
+  grid-auto-flow: dense;
+}
+
+.horizontal {
+  grid-column: span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* 
+Extra small (xs) devices (portrate phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktop, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) devices (large desktop, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

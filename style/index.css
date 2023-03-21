@@ -267,7 +267,7 @@ Extra (xl) devices (large desktop, 1200px and up)
   border: 1px solid var(--dark);
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 10px 6px -6px #424242d3;
+  box-shadow: 0 10px 6px -6px rgba(66, 66, 66, 0.8274509804);
   border-radius: 3px;
   position: absolute;
   backface-visibility: hidden;
@@ -354,7 +354,7 @@ Extra (xl) devices (large desktop, 1200px and up)
   border: 1px solid var(--dark);
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 10px 6px -6px #424242d3;
+  box-shadow: 0 10px 6px -6px rgba(66, 66, 66, 0.8274509804);
   border-radius: 3px;
 }
 #events .event .inner {
@@ -486,5 +486,3 @@ Large (lg) devices (desktop, 992px and up)
 Extra (xl) devices (large desktop, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-/*# sourceMappingURL=index.css.map */
